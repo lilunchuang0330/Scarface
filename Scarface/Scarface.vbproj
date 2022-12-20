@@ -171,5 +171,17 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GW1fFm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\繼續.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leadingAnmi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
