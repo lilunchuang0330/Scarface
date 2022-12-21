@@ -22,7 +22,57 @@ Scarface
   使用這個強類型資源類別的資源查閱。
 </summary>
 </member>
+<member name="P:Scarface.My.Resources.Resources._001">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
 <member name="P:Scarface.My.Resources.Resources._1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._10">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._5">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._6">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._7">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._8">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources._9">
 <summary>
   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
 </summary>
@@ -39,7 +89,7 @@ Scarface
 </member>
 <member name="P:Scarface.My.Resources.Resources.繼續">
 <summary>
-  查詢類似 (圖示) 的類型 System.Drawing.Icon 當地語系化資源。
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
 </summary>
 </member>
 </members>

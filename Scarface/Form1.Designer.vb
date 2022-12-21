@@ -69,6 +69,8 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(1582, 853)
         Me.Controls.Add(Me.btnCh1)
         Me.Controls.Add(Me.btnStart)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Scarface"
