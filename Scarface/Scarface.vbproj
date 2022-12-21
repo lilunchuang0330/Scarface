@@ -160,6 +160,12 @@
     <EmbeddedResource Include="CH1.resx">
       <DependentUpon>CH1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CH1game-1.resx">
+      <DependentUpon>CH1game-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CH1game-2.resx">
+      <DependentUpon>CH1game-2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

@@ -41,7 +41,8 @@ Partial Class CH1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(61, 89)
+        Me.Label1.Location = New System.Drawing.Point(46, 71)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(14, 15)
         Me.Label1.TabIndex = 0
@@ -52,9 +53,10 @@ Partial Class CH1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Image = Global.Scarface.My.Resources.Resources.leadingAnmi
-        Me.PictureBox1.Location = New System.Drawing.Point(0, -4)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, -3)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1600, 906)
+        Me.PictureBox1.Size = New System.Drawing.Size(1200, 725)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -66,9 +68,10 @@ Partial Class CH1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.picBack.BackgroundImage = Global.Scarface.My.Resources.Resources._6
         Me.picBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.picBack.Location = New System.Drawing.Point(-30, -4)
+        Me.picBack.Location = New System.Drawing.Point(0, -3)
+        Me.picBack.Margin = New System.Windows.Forms.Padding(2)
         Me.picBack.Name = "picBack"
-        Me.picBack.Size = New System.Drawing.Size(1600, 900)
+        Me.picBack.Size = New System.Drawing.Size(1155, 674)
         Me.picBack.TabIndex = 2
         Me.picBack.TabStop = False
         Me.picBack.Visible = False
@@ -78,9 +81,10 @@ Partial Class CH1
         Me.btnAcc.BackColor = System.Drawing.Color.DarkGray
         Me.btnAcc.Font = New System.Drawing.Font("微軟正黑體", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.btnAcc.ForeColor = System.Drawing.Color.Black
-        Me.btnAcc.Location = New System.Drawing.Point(152, 456)
+        Me.btnAcc.Location = New System.Drawing.Point(122, 338)
+        Me.btnAcc.Margin = New System.Windows.Forms.Padding(2)
         Me.btnAcc.Name = "btnAcc"
-        Me.btnAcc.Size = New System.Drawing.Size(567, 99)
+        Me.btnAcc.Size = New System.Drawing.Size(425, 79)
         Me.btnAcc.TabIndex = 3
         Me.btnAcc.Text = "接受任務"
         Me.btnAcc.UseVisualStyleBackColor = False
@@ -90,20 +94,20 @@ Partial Class CH1
         Me.btnRef.BackColor = System.Drawing.Color.DarkGray
         Me.btnRef.Font = New System.Drawing.Font("微軟正黑體", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.btnRef.ForeColor = System.Drawing.Color.Black
-        Me.btnRef.Location = New System.Drawing.Point(811, 456)
+        Me.btnRef.Location = New System.Drawing.Point(601, 338)
+        Me.btnRef.Margin = New System.Windows.Forms.Padding(2)
         Me.btnRef.Name = "btnRef"
-        Me.btnRef.Size = New System.Drawing.Size(567, 99)
+        Me.btnRef.Size = New System.Drawing.Size(425, 79)
         Me.btnRef.TabIndex = 4
         Me.btnRef.Text = "拒絕任務"
         Me.btnRef.UseVisualStyleBackColor = False
         '
         'CH1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1582, 853)
+        Me.ClientSize = New System.Drawing.Size(1155, 676)
         Me.Controls.Add(Me.btnAcc)
         Me.Controls.Add(Me.btnRef)
         Me.Controls.Add(Me.picBack)
@@ -113,6 +117,7 @@ Partial Class CH1
         Me.ForeColor = System.Drawing.Color.Transparent
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximizeBox = False
         Me.Name = "CH1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

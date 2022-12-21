@@ -39,9 +39,10 @@ Partial Class Form1
         Me.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnStart.Font = New System.Drawing.Font("標楷體", 28.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
         Me.btnStart.ForeColor = System.Drawing.Color.Red
-        Me.btnStart.Location = New System.Drawing.Point(808, 559)
+        Me.btnStart.Location = New System.Drawing.Point(606, 447)
+        Me.btnStart.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(356, 88)
+        Me.btnStart.Size = New System.Drawing.Size(267, 70)
         Me.btnStart.TabIndex = 0
         Me.btnStart.Text = "直 接 遊 玩"
         Me.btnStart.UseVisualStyleBackColor = False
@@ -53,23 +54,24 @@ Partial Class Form1
         '
         'btnCh1
         '
-        Me.btnCh1.Location = New System.Drawing.Point(61, 205)
+        Me.btnCh1.Location = New System.Drawing.Point(46, 164)
+        Me.btnCh1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnCh1.Name = "btnCh1"
-        Me.btnCh1.Size = New System.Drawing.Size(269, 127)
+        Me.btnCh1.Size = New System.Drawing.Size(202, 102)
         Me.btnCh1.TabIndex = 1
         Me.btnCh1.Text = "CH1 難民營"
         Me.btnCh1.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.BackgroundImage = Global.Scarface.My.Resources.Resources.GW1fFm
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1582, 853)
+        Me.ClientSize = New System.Drawing.Size(1155, 676)
         Me.Controls.Add(Me.btnCh1)
         Me.Controls.Add(Me.btnStart)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

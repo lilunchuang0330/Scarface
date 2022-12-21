@@ -22,9 +22,29 @@ Partial Class CH1game_2
     '請勿使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.btnG2 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btnG2
+        '
+        Me.btnG2.Location = New System.Drawing.Point(223, 131)
+        Me.btnG2.Name = "btnG2"
+        Me.btnG2.Size = New System.Drawing.Size(129, 62)
+        Me.btnG2.TabIndex = 0
+        Me.btnG2.Text = "go to ch2"
+        Me.btnG2.UseVisualStyleBackColor = True
+        '
+        'CH1game_2
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnG2)
+        Me.Name = "CH1game_2"
         Me.Text = "CH1game_2"
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents btnG2 As Button
 End Class
