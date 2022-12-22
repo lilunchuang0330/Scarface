@@ -26,12 +26,16 @@ Partial Class CH1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CH1))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.picBack = New System.Windows.Forms.PictureBox()
         Me.btnAcc = New System.Windows.Forms.Button()
         Me.btnRef = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.picBack = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBack, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Timer1
@@ -48,33 +52,6 @@ Partial Class CH1
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "3"
         Me.Label1.Visible = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Image = Global.Scarface.My.Resources.Resources.leadingAnmi
-        Me.PictureBox1.Location = New System.Drawing.Point(0, -3)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1200, 725)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
-        '
-        'picBack
-        '
-        Me.picBack.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.picBack.BackgroundImage = Global.Scarface.My.Resources.Resources._6
-        Me.picBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.picBack.Location = New System.Drawing.Point(0, -3)
-        Me.picBack.Margin = New System.Windows.Forms.Padding(2)
-        Me.picBack.Name = "picBack"
-        Me.picBack.Size = New System.Drawing.Size(1155, 674)
-        Me.picBack.TabIndex = 2
-        Me.picBack.TabStop = False
-        Me.picBack.Visible = False
         '
         'btnAcc
         '
@@ -102,12 +79,65 @@ Partial Class CH1
         Me.btnRef.Text = "拒絕任務"
         Me.btnRef.UseVisualStyleBackColor = False
         '
+        'Timer2
+        '
+        Me.Timer2.Interval = 1000
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(49, 70)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(14, 15)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "4"
+        Me.Label2.Visible = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Scarface.My.Resources.Resources.CH1_gif
+        Me.PictureBox2.Location = New System.Drawing.Point(0, -3)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(1154, 682)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 6
+        Me.PictureBox2.TabStop = False
+        Me.PictureBox2.Visible = False
+        '
+        'picBack
+        '
+        Me.picBack.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.picBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.picBack.Location = New System.Drawing.Point(0, -3)
+        Me.picBack.Margin = New System.Windows.Forms.Padding(2)
+        Me.picBack.Name = "picBack"
+        Me.picBack.Size = New System.Drawing.Size(1155, 674)
+        Me.picBack.TabIndex = 2
+        Me.picBack.TabStop = False
+        Me.picBack.Visible = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Image = Global.Scarface.My.Resources.Resources.leadingAnmi
+        Me.PictureBox1.Location = New System.Drawing.Point(0, -3)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(1200, 725)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
         'CH1
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1155, 676)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnAcc)
         Me.Controls.Add(Me.btnRef)
         Me.Controls.Add(Me.picBack)
@@ -122,8 +152,9 @@ Partial Class CH1
         Me.Name = "CH1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Scarface"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBack, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -135,4 +166,7 @@ Partial Class CH1
     Friend WithEvents picBack As PictureBox
     Friend WithEvents btnAcc As Button
     Friend WithEvents btnRef As Button
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents Label2 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

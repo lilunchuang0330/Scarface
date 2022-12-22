@@ -77,12 +77,27 @@ Scarface
   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
 </summary>
 </member>
+<member name="P:Scarface.My.Resources.Resources.CH1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources.CH1_gif">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
 <member name="P:Scarface.My.Resources.Resources.GW1fFm">
 <summary>
   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
 </summary>
 </member>
 <member name="P:Scarface.My.Resources.Resources.leadingAnmi">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:Scarface.My.Resources.Resources.rebanga">
 <summary>
   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
 </summary>

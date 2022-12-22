@@ -40,9 +40,9 @@ Public Class CH1
             picBack.BackgroundImageLayout = BackgroundImageLayout.Stretch
             page = 4
         ElseIf page = 4 Then
-            picBack.BackgroundImage = My.Resources._4
-            picBack.BackgroundImageLayout = BackgroundImageLayout.Stretch
-            page = 5
+            Timer2.Enabled = True
+            PictureBox2.Visible = True
+
         ElseIf page = 5 Then
             picBack.BackgroundImage = My.Resources._5
             picBack.BackgroundImageLayout = BackgroundImageLayout.Stretch
@@ -76,7 +76,6 @@ Public Class CH1
         ElseIf g2 = True Then
             CH1game_2.Show()
             Me.Hide()
-
         End If
 
     End Sub
@@ -100,4 +99,22 @@ Public Class CH1
             page = 8
         End If
     End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        Label2.Text -= 1
+        If Label2.Text = 0 Then
+            picBack.Visible = True
+        End If
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        If Label2.Text = 0 Then
+            picBack.Visible = True
+            picBack.BackgroundImage = My.Resources._4
+            picBack.BackgroundImageLayout = BackgroundImageLayout.Stretch
+            page = 5
+            PictureBox2.Visible = False
+        End If
+    End Sub
+
 End Class

@@ -166,6 +166,9 @@
     <EmbeddedResource Include="CH1game-2.resx">
       <DependentUpon>CH1game-2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CH2.resx">
+      <DependentUpon>CH2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +241,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CH1-gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rebanga.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
